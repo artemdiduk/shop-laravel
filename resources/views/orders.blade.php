@@ -42,14 +42,16 @@
                             </a>
 
                             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="http://127.0.0.1:8000/logout" onclick="event.preventDefault();
+                                <a class="dropdown-item" href="http://127.0.0.1:8000/logout"
+                                    onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">
                                     Выйти
                                 </a>
 
                                 <form id="logout-form" action="http://127.0.0.1:8000/logout" method="POST"
                                     style="display: none;">
-                                    <input type="hidden" name="_token" value="NmxbCd9NXUXs8EZyKEWzW1h8R7ZlERi7ksZZKj2Z">
+                                    <input type="hidden" name="_token"
+                                        value="NmxbCd9NXUXs8EZyKEWzW1h8R7ZlERi7ksZZKj2Z">
                                 </form>
                             </div>
                         </li>
@@ -93,7 +95,7 @@
             </div>
         </div>
     </div>
-   
+
 </body>
 
 </html>
