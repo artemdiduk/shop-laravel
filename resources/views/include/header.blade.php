@@ -8,7 +8,7 @@
                 <li class="active"><a href="http://127.0.0.1:8000">Все товары</a></li>
                 <li><a href="{{route('categories') }}">Категории</a>
                 </li>
-                <li><a href="http://127.0.0.1:8000/basket">В корзину</a></li>
+                <li><a href="{{ route('basket') }}">В корзину</a></li>
                 <li><a href="http://127.0.0.1:8000/reset">Сбросить проект в начальное состояние</a></li>
                 <li><a href="http://127.0.0.1:8000/locale/en">en</a></li>
 
